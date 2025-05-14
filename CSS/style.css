@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Creepster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: "minha-fonte";
+    font-style: normal;         
+    src: url("../assets/WubbaLubbaDubDub.ttf") format("truetype");
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+header {
+  background-color: black;
+  color: #00e202;
+}
+
+
+.main-title{
+    font-family: "minha-fonte", sans-serif;
+}
+
+/* depois disso, os estilos */
+.main-title {
+    font-family:"WabbaLubba Dub Dub", sans-serif;
+    color: #00e202;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+     /* margin-top: 0 !important; */
+}
+
+
+.main-title img {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+#circle-status {
+    font-size: 10px;
+    display: inline-block;
+    margin-right: 4px;
+  }
+
+  .copy {
+    margin-top: 128px;
+  }
+  .main-content{
+    background-color: black;
+    background-image: url("../assets/images/Fundo.PNG"); 
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 500px;
+    padding-top: 40px;
+}
+  
+
+.detail {
+    background-size: cover;
+}
+  footer {
+    background-color: black;
+    color:#00e202
+  }
+  
+/*Sobreescrito Bootstrap*/
+.form-control {
+     background-color: transparent;
+    border: 1px solid #00e202; /* deixa a borda sempre verde */
+    border-right: none;
+    color: #00e202; /* opcional: cor do texto dentro da barra */
+}
+.form-control:focus {
+    border-color: #00e202;
+    border-right: none; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 226, 2, 0.25);
+}
+
+
+.input-group-text {
+  
+    border-color: #00e202;
+    background-color:transparent;
+    color:#00e202
+    
+}
+.form-control::placeholder {
+    color: #00e202; /* verde */
+    opacity: 1; /* garante que não fique desbotado */
+}
+
+
+.card-title {
+    font-size: 24px;
+   font-family: "minha-fonte", sans-serif;
+   color: #00e202;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: black; /* garante fundo preto total */
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+section.container {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.card {
+  background-color: rgba(28, 56, 4, 0.534);
+  border: 1px solid #00e202;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 20px;
+  color: white;
+
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.card:hover {
+  animation: girarVaiVolta 0.8s ease-in-out;
+}
+
+@keyframes girarVaiVolta {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
