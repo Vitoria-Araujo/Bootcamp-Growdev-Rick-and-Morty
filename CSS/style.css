@@ -137,6 +137,7 @@ section.container {
 
 .card:hover {
   animation: girarVaiVolta 0.8s ease-in-out;
+  cursor: pointer;  
 }
 
 @keyframes girarVaiVolta {
