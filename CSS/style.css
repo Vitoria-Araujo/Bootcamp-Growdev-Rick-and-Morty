@@ -150,3 +150,23 @@ section.container {
     transform: rotateX(0deg);
   }
 }
+
+.page-link,
+.btn.btn-light {
+  color: #00e202;
+  font-size: large;
+  background-color: black;
+  border-radius: 0.25em;
+  font-family: "Balsamiq Sans", cursive;
+  font-weight: bold;
+  
+    
+    cursor: pointer;
+  text-decoration: none;
+}
+
+
+.page-link:hover,
+.btn.btn-light:hover {
+  text-transform: uppercase;
+}
